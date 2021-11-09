@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  user-select: none;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+.head {
+  background-color: #f2f2f2;
+}
+
+.main{
+  padding: 1vw 1vw 1vw 2vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#one, #three{
+  flex-wrap: wrap;
+  padding: 30px 0px;
+}
+
+#two {
+  flex-wrap: wrap-reverse;
+  padding: 30px 0px;
+}
+
+#img1 {
+  transform: rotate(40deg);
+  margin: 50px;
+}
+
+#img2 {
+  transform: rotate(-40deg);
+  margin: 50px;
+}
+
+.brand {
+  padding: 3vh 0vh 3vh 0vh;
+  font-size: 2rem;
+  color: black;
+}
+
+#category {
+  padding: 8px 0px 8px 0px;
+  font-size: 0.6rem;
+  color: #23c1e8;
+  font-weight: bold;
+}
+
+#tagline, #description {
+  color: #363636;
+}
+
+#description {
+  padding: 25px 0px 25px 0px;
+}
+
+.primary {
+  padding: 12px 40px;
+  border: none;
+  background-color: #436ccc;
+  color: white;
+}
+
+.primary:hover {
+  color: #436ccc;
+  background-color: white;
+  border: 2px solid #436ccc;
+}
+
+hr {
+  margin: 0vw 15vw 5vw 15vw;
+  color: #f2f2f2;
+}
+
+.trust {
+  text-align: center;
+  padding-top: 30px;
+  background-color: #fafafa;
+}
+
+.button-logo {
+  padding: 10px;
+}
+
+.button-logo > button {
+  padding: 15px 40px;
+  margin: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  color: lightgray;
+}
+
+.grid {
+  margin: 0 15vw;
+  padding: 4vh 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.img {
+  margin: 15px 0;
+  padding: 5px;
+  border: none;
+  background-color:#f2f2f2;
+  border-radius: 50%; 
+}
+
+.img > img {
+  padding: 5px;
+}
+
+.last {
+  text-align: center;
+  background-color: #fafafa;
+  padding: 30px 0 30px 0;
+}
+
+blockquote {
+  color: lightgrey;
+  font-size: 2vw;
+}
+
+cite {
+  font-size: 1vw;
+}
+
+footer {
+  padding: 30px 0;
+  text-align: center;
+  background-color: #363636;
+}
+
+footer > p, footer > h2 {
+  padding: 50px 0 0 0;
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 640px){
+  .content{
+    text-align: center;
+  }
+}
